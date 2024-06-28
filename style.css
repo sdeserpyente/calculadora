@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(132, 101, 245);
+    padding: 0;
+    height: 100vh;
+    margin: 0;
+    display: grid;
+    place-content: center;
+}
+
+.contenedor{
+    background-color: aqua;
+    border-radius: 1rem;
+    border: 1rem solid #333333;
+    height:  23rem;
+    width: 20rem;
+    display: grid;
+    grid-template-rows: 1fr 2fr 3fr 1fr;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.contenedor >*{
+    background-color: #11e6e6;
+    display: grid;
+    place-content: center;
+}
+
+.cont-botones{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: .5rem;
+    padding: .5rem;
+}
